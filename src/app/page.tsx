@@ -1,19 +1,20 @@
 import React from 'react'
 import Common from '@/component/common/CommonSection';
-import Preheader from '@/component/header/Preheader';
+
 import HeroSection from '@/component/heroSection';
-import Header from '@/component/header/Header';
+
 import FeaturesSection from '@/component/featuresSection/FeaturesSection';
-import LearnerStudent from '@/component/learningstudent/learnerStudent'
+import LearningStudentSection from '@/component/LearningStudentSection'
+
+
 
 function page() {
   return (
  
-<div className="max-w-[1278px] mx-auto p-8">
+<>
 
   
-  <Preheader></Preheader>
-  <Header></Header>
+  
 
 
 
@@ -36,11 +37,13 @@ function page() {
 />
 
 
-<LearnerStudent></LearnerStudent>
+
+<LearningStudentSection></LearningStudentSection>
+
 
 </div>
 
-</div>
+</>
 
   )
 }

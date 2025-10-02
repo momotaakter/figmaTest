@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Raleway, Outfit } from "next/font/google";
 import "./globals.css";
+import Header from '@/component/header/Header';
 
 import Footer from "@/component/footer/Footer";
-
+import Preheader from "@/component/header/Preheader"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,13 +41,17 @@ export default function RootLayout({
       <body
        className={`${geistSans.variable} ${geistMono.variable} ${raleway.variable} ${outfit.variable} antialiased`}
      >
-
-        
+<div className="max-w-[1278px] mx-auto p-8">
+    <Preheader></Preheader>
+        <Header></Header>
   
       
         {children}
 
        <Footer></Footer>
+</div>
+
+
       </body>
     </html>
   );
