@@ -5,7 +5,8 @@ import HeroSection from '@/component/heroSection';
 
 import FeaturesSection from '@/component/featuresSection/FeaturesSection';
 import LearningStudentSection from '@/component/LearningStudentSection'
-
+import CatagoryFilter from '@/component/catagory/CatagoryFilter'
+import CatagoryDetails from '@/component/catagory/CatagoryDetails'
 
 
 function page() {
@@ -47,6 +48,13 @@ function page() {
   text="Step into our Gallery and immerse yourself in a visual journey of cherished moments and unforgettable experiences at our kindergarten school."
 />
 
+<CatagoryFilter></CatagoryFilter>
+
+<CatagoryDetails></CatagoryDetails>
+<CatagoryDetails></CatagoryDetails>
+
+<CatagoryDetails></CatagoryDetails>
+<CatagoryDetails></CatagoryDetails>
 
 
 </div>

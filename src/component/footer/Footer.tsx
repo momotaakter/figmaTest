@@ -3,14 +3,20 @@ import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin } from "lucide-react";
 
 const Footer: FC = () => {
   return (
-    <footer className="bg-white border-t border-gray-200">
+    <footer className="bg-white border-t rounded-lg border-2 shadow-[6px_6px_0px_2px_#1E1E1E] mt-[100px]">
       <div className="max-w-7xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-10">
           {/* Left section */}
           <div className="md:col-span-2 space-y-4">
             <div className="flex items-center gap-2">
               {/* Logo */}
-              <div className="w-8 h-8 bg-black rounded-sm"></div>
+              <div className="w-8 h-8  rounded-sm">
+                <img
+                src="/images/shape.png"
+                alt="Logo"
+                className="h-8 w-8 object-contain"
+              />
+              </div>
               <span className="font-semibold text-lg">Little Learners</span>
             </div>
             <p className="text-sm text-gray-600">
@@ -18,8 +24,10 @@ const Footer: FC = () => {
               problem-solving skills, and imagination.
             </p>
             <div className="space-y-3 text-sm text-gray-700">
-              <p className="flex items-center gap-2">
-                <Mail size={18} /> hello@littlelearners.com
+              <p className="flex items-center gap-2 ">
+            
+                <Mail  size={18} /> hello@littlelearners.com
+            
               </p>
               <p className="flex items-center gap-2">
                 <Phone size={18} /> +91 91813 23 2309
@@ -55,6 +63,8 @@ const Footer: FC = () => {
               <li>Special Features</li>
               <li>Gallery</li>
             </ul>
+
+
             <h4 className="font-semibold mt-6 mb-3">Contact Us</h4>
             <ul className="space-y-2 text-sm text-gray-600">
               <li>Information</li>
@@ -64,10 +74,10 @@ const Footer: FC = () => {
         </div>
 
         {/* Divider */}
-        <hr className="my-8 border-gray-300" />
+        <hr className="my-8 border-black" />
 
         {/* Bottom section */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-600">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-black">
           <div className="flex flex-wrap gap-4">
             <a href="#">Terms of Service</a>
             <a href="#">Privacy Policy</a>
@@ -95,9 +105,9 @@ const Footer: FC = () => {
             </a>
           </div>
         </div>
-
+ <hr className="my-8 border-black" />
         {/* Copyright */}
-        <div className="mt-6 text-center text-sm text-gray-500">
+        <div className="mt-6 text-center text-sm text-black">
           Copyright © [2023] Little Learners Academy. All rights reserved.
         </div>
       </div>
