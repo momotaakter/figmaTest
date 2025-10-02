@@ -20,7 +20,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full border-2 border-[#262626] rounded-[12px] overflow-hidden mb-5">
+    <header className="w-full bg-white border-2 border-[#262626] rounded-[12px] overflow-hidden mb-[20px] sm:mb-[50px]">
       <div className="flex items-center justify-between h-16">
         {/* Logo */}
         <div className="flex items-center bg-[#FF8D4D] p-4 rounded-l-[10px] h-full">

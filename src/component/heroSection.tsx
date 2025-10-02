@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import { Paragraph ,Button} from "./Typography";
+
 
 const HeroSection: React.FC = () => {
   return (
@@ -17,10 +19,7 @@ const HeroSection: React.FC = () => {
           />
         </div>
 
-        {/* Badge */}
-        <span className="inline-block px-3 py-1 border rounded-md text-sm text-gray-700 mb-4">
-          Academics
-        </span>
+        <Button>Academics</Button>
 
         {/* Title */}
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
@@ -30,15 +29,16 @@ const HeroSection: React.FC = () => {
 
       {/* Right side */}
       <div className="flex-1 text-gray-700 text-lg leading-relaxed">
-        <p>
-          Welcome to our Academics page, where we take pride in providing a
+        <Paragraph>
+Welcome to our Academics page, where we take pride in providing a
           comprehensive and stimulating educational experience for your child.
           Our kindergarten schools academic program is thoughtfully designed to
           foster a love for learning while building a strong foundation of
           essential skills and knowledge. From language arts and mathematics to
           science and social studies, our curriculum is carefully crafted to
           spark curiosity and encourage active exploration.
-        </p>
+        </Paragraph>
+      
       </div>
     </section>
   );

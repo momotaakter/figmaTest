@@ -1,4 +1,7 @@
 import React from "react";
+import {  Paragraph } from "../Typography";
+
+
 
 interface FeatureCardProps {
   icon: React.ReactNode;
@@ -16,7 +19,8 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description }) =
 
       {/* Content */}
       <h3 className="text-lg font-semibold mt-6">{title}</h3>
-      <p className="text-gray-600 text-sm leading-relaxed">{description}</p>
+      <p className="text-[#4C4C4D] text-[16px] md:text-[20px]  leading-relaxed font-[family-name:var(--font-outfit)]">{description}</p>
+ 
     </div>
   );
 };

@@ -45,7 +45,7 @@ export function Subtitle({ children, className }: TypographyProps) {
 export function Button({ children, className }: TypographyProps) {
   return (
     <button
-      className={`w-[128px] h-[47px] rotate-0 opacity-100 rounded-[8px] border-2 capitalize bg-white
+      className={` h-[47px] rotate-0 opacity-100 rounded-[8px] border-2 capitalize bg-white
             pt-[10px] pr-[20px] pb-[10px] pl-[20px] gap-[10px] font-[family-name:var(--font-outfit)] font-medium
         ${className || ''}
       `}

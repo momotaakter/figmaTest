@@ -6,14 +6,14 @@ import { Button } from "../Typography";
 interface CommonProps {
   readonly heading: string;
   readonly text: string;
-  readonly buttonText: string;
+  readonly btn: string;
 }
 
-export default function Common({ heading, text, buttonText }: CommonProps) {
+export default function Common({ heading, text,btn }: CommonProps) {
   return (
     <div className="max-w-2xl mx-auto py-6 text-center">
      
-<Button>{buttonText}</Button>
+<Button>{btn}</Button>
 <H1>{heading}</H1>
 <Paragraph>{text}</Paragraph>
 
