@@ -41,6 +41,14 @@ function page() {
 <LearningStudentSection></LearningStudentSection>
 
 
+<Common
+  btn="Our Gallary"
+  heading="Our Rooms Gallery"
+  text="Step into our Gallery and immerse yourself in a visual journey of cherished moments and unforgettable experiences at our kindergarten school."
+/>
+
+
+
 </div>
 
 </>
