@@ -39,20 +39,20 @@ const LearningStudentCard: React.FC<SectionProps> = ({ imgSrc, heading, paragrap
 const LearningStudentSection = () => {
   const data = [
     {
-      imgSrc: "./images/learnerstudent/firstLearner.png",
+      imgSrc: "/images/learnerstudent/firstLearner.png",
       heading: "Language Arts",
       paragraph:
         "Reading, writing, storytelling, and communication skills.",
     },
     {
-      imgSrc: "./images/learnerstudent/student2.png",
+      imgSrc: "/images/learnerstudent/student2.png",
       heading: "Mathematics",
       paragraph:
         "Number sense, basic operations, problem-solving, and logic.",
     },
   
  {
-      imgSrc: "./images/learnerstudent/student2.png",
+      imgSrc: "/images/learnerstudent/student2.png",
       heading: "Mathematics",
       paragraph:
         "Number sense, basic operations, problem-solving, and logic.",
@@ -60,21 +60,21 @@ const LearningStudentSection = () => {
 
 
  {
-      imgSrc: "./images/learnerstudent/student2.png",
+      imgSrc: "/images/learnerstudent/student2.png",
       heading: "Mathematics",
       paragraph:
         "Number sense, basic operations, problem-solving, and logic.",
     },
 
  {
-      imgSrc: "./images/learnerstudent/student2.png",
+      imgSrc: "/images/learnerstudent/student2.png",
       heading: "Mathematics",
       paragraph:
         "Number sense, basic operations, problem-solving, and logic.",
     },
 
  {
-      imgSrc: "./images/learnerstudent/student2.png",
+      imgSrc: "/images/learnerstudent/student2.png",
       heading: "Mathematics",
       paragraph:
         "Number sense, basic operations, problem-solving, and logic.",

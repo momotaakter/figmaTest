@@ -17,7 +17,7 @@ export function H1({ children, className }: TypographyProps) {
 
 export function Paragraph({ children, className }: TypographyProps) {
   return (
-    <p className={`font-[family-name:var(--font-outfit)] font-medium text-[20px] leading-[150%] tracking-[0px] ${className || ''}`}>
+    <p className={`font-[family-name:var(--font-outfit)] font-medium text-[15px] lg:text-[20px] leading-[150%] tracking-[0px] ${className || ''}`}>
       {children}
     </p>
   );

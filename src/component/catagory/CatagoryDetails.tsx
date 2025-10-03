@@ -4,15 +4,9 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
   "/images/learnerstudent/firstLearner.png",
-
-"images/learnerstudent/firstLearner.png",
-
-
- "/images/learnerstudent/firstLearner.png",
-
-"images/learnerstudent/firstLearner.png"
-
-
+  "/images/learnerstudent/firstLearner.png",
+  "/images/learnerstudent/firstLearner.png",
+  "/images/learnerstudent/firstLearner.png"
 ];
 
 export default function CatagoryDetails() {
@@ -60,14 +54,20 @@ export default function CatagoryDetails() {
         {/* NAVIGATION */}
         <div className="flex justify-end gap-2  h-[34px] ">
           <button
+            type="button"
             onClick={prevSlide}
             className="p-2 border border-gray-400 rounded-md hover:bg-gray-100"
+            aria-label="Previous image"
+            title="Previous image"
           >
             <ChevronLeft size={20} />
           </button>
           <button
+            type="button"
             onClick={nextSlide}
             className="p-2 border border-gray-400 rounded-md hover:bg-gray-100"
+            aria-label="Next image"
+            title="Next image"
           >
             <ChevronRight size={20} />
           </button>

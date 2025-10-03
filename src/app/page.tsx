@@ -19,7 +19,7 @@ function page() {
 
 
 
-<div className="space-y-[100px]">
+<div className="space-y-[50px] md:space-y-[80px] lg:space-y-[100px]">
 
    <HeroSection></HeroSection>
 
