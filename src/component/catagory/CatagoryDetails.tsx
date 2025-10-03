@@ -23,7 +23,7 @@ export default function CatagoryDetails() {
   return (
     <div className="w-full max-w-6xl mx-auto px-4">
       {/* IMAGE SECTION */}
-      <div className="relative z-20 flex justify-center md:grid md:grid-cols-4 gap-4 px-14  ">
+      <div className="relative z-20 flex justify-center md:grid md:grid-cols-4 gap-4 px-4 sm:px-6 lg:px-8">
         {images.map((src, index) => (
           <div
             key={index}
@@ -41,7 +41,7 @@ export default function CatagoryDetails() {
       </div>
 
       {/* TEXT CONTENT */}
-      <div className="relative z-10 bg-white rounded-lg p-6 -mt-26 pt-19 h-[340px] border-2 shadow-[6px_6px_0px_2px_#1E1E1E]">
+      <div className="relative z-10 bg-white rounded-lg p-6 -mt-20 sm:-mt-26 pt-16 sm:pt-19 min-h-[340px] border-2 shadow-[6px_6px_0px_2px_#1E1E1E]">
       
         <h2 className="text-2xl font-bold mb-2 pt-9">Classrooms</h2>
           <div className="flex">

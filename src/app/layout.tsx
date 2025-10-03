@@ -41,7 +41,7 @@ export default function RootLayout({
       <body
        className={`${geistSans.variable} ${geistMono.variable} ${raleway.variable} ${outfit.variable} antialiased`}
      >
-<div className="max-w-[1278px] mx-auto p-8">
+<div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
     <Preheader></Preheader>
         <Header></Header>
   
